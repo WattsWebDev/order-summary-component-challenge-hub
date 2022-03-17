@@ -10,12 +10,14 @@ body {
     background-color: hsl(225, 100%, 94%);
     background-image: url('../images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .container {
    display: flex;
    justify-content: center;
-   margin: 40px auto;
+   align-items: center;
+   min-height: 100vh;
 }
 
 img {
@@ -112,6 +114,7 @@ button:hover {
 a:hover {
     cursor: pointer;
     opacity: 0.5;
+    transition: 0.3s;
 }
 
 @media only screen and (max-width: 600px) {

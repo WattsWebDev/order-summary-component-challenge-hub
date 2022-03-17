@@ -45,7 +45,7 @@ p {
 .card-body {
     background-color: white;
     width: 435px;
-    height: 595px;
+    height: 615px;
     border-radius: 20px;
 }
 
@@ -94,7 +94,7 @@ button:hover {
 
 .cancel-link {
     text-align: center;
-    margin: 25px;
+    margin: 30px 0;
     font-weight: 700;
 }
 
@@ -105,7 +105,7 @@ button:hover {
 }
 
 .change-link {
-    margin-left: 30px;
+    margin-left: 65px;
     font-weight: 700;
 }
 
